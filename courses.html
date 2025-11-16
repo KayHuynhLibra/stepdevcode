@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Các khóa học và quá trình học tập của tôi - DSA, Lập trình và Công nghệ">
-    <title>Khóa học - StepDevCode.me</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Learning Journey & Courses - StepDevCode.me | My educational path and completed courses">
+    <title>Learning Journey - StepDevCode.me</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -20,10 +20,11 @@
                 </a>
             </div>
             <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Trang chủ</a></li>
-                <li><a href="index.html#about" class="nav-link">Giới thiệu</a></li>
-                <li><a href="courses.html" class="nav-link active">Khóa học</a></li>
-                <li><a href="index.html#contact" class="nav-link">Liên hệ</a></li>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="courses.html" class="nav-link active">Courses</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
             <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
                 <span class="theme-icon">🌙</span>
@@ -40,8 +41,8 @@
     <section class="courses-hero">
         <div class="container">
             <div class="courses-hero-content">
-                <h1 class="courses-title">Khóa học & Quá trình Học tập</h1>
-                <p class="courses-subtitle">Hành trình học tập của tôi về Lập trình, DSA và Công nghệ</p>
+                <h1 class="courses-title">Learning Journey & Courses</h1>
+                <p class="courses-subtitle">Documenting my educational path, completed courses, and continuous learning</p>
             </div>
         </div>
     </section>
@@ -51,10 +52,10 @@
         <div class="container">
             <!-- Filter Tabs -->
             <div class="course-filters">
-                <button class="filter-btn active" data-filter="all">Tất cả</button>
+                <button class="filter-btn active" data-filter="all">All Courses</button>
                 <button class="filter-btn" data-filter="dsa">DSA</button>
                 <button class="filter-btn" data-filter="web">Web Development</button>
-                <button class="filter-btn" data-filter="other">Khác</button>
+                <button class="filter-btn" data-filter="other">Other</button>
             </div>
 
             <!-- Courses Grid -->
@@ -63,13 +64,13 @@
                 <div class="course-card" data-category="dsa" id="dsa-basics">
                     <div class="course-header">
                         <div class="course-icon">📊</div>
-                        <div class="course-badge">Đang học</div>
+                        <div class="course-badge">In Progress</div>
                     </div>
                     <div class="course-content">
                         <h3 class="course-title">Data Structures & Algorithms</h3>
                         <p class="course-description">
-                            Học về cấu trúc dữ liệu và thuật toán cơ bản đến nâng cao. 
-                            Bao gồm Arrays, Linked Lists, Trees, Graphs, và các thuật toán sorting, searching.
+                            Learning fundamental data structures and algorithms from basics to advanced. 
+                            Covering Arrays, Linked Lists, Trees, Graphs, and sorting/searching algorithms.
                         </p>
                         <div class="course-tags">
                             <span class="tag">Arrays</span>
@@ -81,10 +82,10 @@
                             <div class="progress-bar">
                                 <div class="progress-fill" style="width: 65%"></div>
                             </div>
-                            <span class="progress-text">65% hoàn thành</span>
+                            <span class="progress-text">65% Complete</span>
                         </div>
                         <div class="course-footer">
-                            <a href="courses.html#dsa-basics" class="course-link">Xem chi tiết →</a>
+                            <a href="courses.html#dsa-basics" class="course-link">View Details →</a>
                         </div>
                     </div>
                 </div>
@@ -93,13 +94,13 @@
                 <div class="course-card" data-category="dsa" id="dsa-analysis">
                     <div class="course-header">
                         <div class="course-icon">🔍</div>
-                        <div class="course-badge completed">Hoàn thành</div>
+                        <div class="course-badge completed">Completed</div>
                     </div>
                     <div class="course-content">
                         <h3 class="course-title">Algorithm Analysis & Complexity</h3>
                         <p class="course-description">
-                            Phân tích độ phức tạp thời gian và không gian của thuật toán. 
-                            Big O notation, time complexity, space complexity.
+                            Understanding time and space complexity of algorithms. 
+                            Big O notation, time complexity, space complexity analysis.
                         </p>
                         <div class="course-tags">
                             <span class="tag">Big O</span>
@@ -110,10 +111,10 @@
                             <div class="progress-bar">
                                 <div class="progress-fill" style="width: 100%"></div>
                             </div>
-                            <span class="progress-text">100% hoàn thành</span>
+                            <span class="progress-text">100% Complete</span>
                         </div>
                         <div class="course-footer">
-                            <a href="courses.html#dsa-analysis" class="course-link">Xem chi tiết →</a>
+                            <a href="courses.html#dsa-analysis" class="course-link">View Details →</a>
                         </div>
                     </div>
                 </div>
@@ -122,13 +123,13 @@
                 <div class="course-card" data-category="web" id="web-dev">
                     <div class="course-header">
                         <div class="course-icon">🌐</div>
-                        <div class="course-badge">Đang học</div>
+                        <div class="course-badge">In Progress</div>
                     </div>
                     <div class="course-content">
                         <h3 class="course-title">Full Stack Web Development</h3>
                         <p class="course-description">
-                            Học phát triển web full stack với HTML, CSS, JavaScript, 
-                            Node.js, và các framework hiện đại.
+                            Building complete web applications with HTML, CSS, JavaScript, 
+                            Node.js, and modern frameworks.
                         </p>
                         <div class="course-tags">
                             <span class="tag">HTML/CSS</span>
@@ -140,10 +141,10 @@
                             <div class="progress-bar">
                                 <div class="progress-fill" style="width: 80%"></div>
                             </div>
-                            <span class="progress-text">80% hoàn thành</span>
+                            <span class="progress-text">80% Complete</span>
                         </div>
                         <div class="course-footer">
-                            <a href="courses.html#web-dev" class="course-link">Xem chi tiết →</a>
+                            <a href="courses.html#web-dev" class="course-link">View Details →</a>
                         </div>
                     </div>
                 </div>
@@ -152,12 +153,12 @@
                 <div class="course-card" data-category="other" id="docker-course">
                     <div class="course-header">
                         <div class="course-icon">🐳</div>
-                        <div class="course-badge">Đang học</div>
+                        <div class="course-badge">In Progress</div>
                     </div>
                     <div class="course-content">
                         <h3 class="course-title">Docker & Containerization</h3>
                         <p class="course-description">
-                            Học về Docker, containerization, và deployment với Docker Compose.
+                            Learning Docker, containerization, and deployment with Docker Compose.
                         </p>
                         <div class="course-tags">
                             <span class="tag">Docker</span>
@@ -168,10 +169,10 @@
                             <div class="progress-bar">
                                 <div class="progress-fill" style="width: 40%"></div>
                             </div>
-                            <span class="progress-text">40% hoàn thành</span>
+                            <span class="progress-text">40% Complete</span>
                         </div>
                         <div class="course-footer">
-                            <a href="courses.html#docker-course" class="course-link">Xem chi tiết →</a>
+                            <a href="courses.html#docker-course" class="course-link">View Details →</a>
                         </div>
                     </div>
                 </div>
@@ -181,13 +182,13 @@
 
             <!-- Learning Path Section -->
             <div class="learning-path">
-                <h2 class="section-title">Lộ trình Học tập</h2>
+                <h2 class="section-title">Learning Path Timeline</h2>
                 <div class="path-timeline">
                     <div class="timeline-item">
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <h3>Foundation</h3>
-                            <p>Học cơ bản về lập trình và cấu trúc dữ liệu</p>
+                            <p>Learning programming basics and fundamental data structures</p>
                             <span class="timeline-date">2024 Q1</span>
                         </div>
                     </div>
@@ -195,7 +196,7 @@
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <h3>Intermediate</h3>
-                            <p>Nâng cao về algorithms và web development</p>
+                            <p>Advancing in algorithms and web development</p>
                             <span class="timeline-date">2024 Q2</span>
                         </div>
                     </div>
@@ -203,7 +204,7 @@
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <h3>Advanced</h3>
-                            <p>Chuyên sâu về system design và DevOps</p>
+                            <p>Deep diving into system design and DevOps</p>
                             <span class="timeline-date">2024 Q3-Q4</span>
                         </div>
                     </div>
@@ -218,14 +219,15 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>StepDevCode.me</h3>
-                    <p>Nơi chia sẻ kiến thức lập trình và phát triển web</p>
+                    <p>Personal portfolio showcasing my learning journey and projects.</p>
                 </div>
                 <div class="footer-section">
-                    <h4>Liên kết nhanh</h4>
+                    <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="index.html">Trang chủ</a></li>
-                        <li><a href="courses.html">Khóa học</a></li>
-                        <li><a href="index.html#contact">Liên hệ</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="courses.html">Courses</a></li>
                     </ul>
                 </div>
             </div>
@@ -235,8 +237,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    <script src="courses.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/courses.js"></script>
 </body>
 </html>
-

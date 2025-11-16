@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="StepDevCode.me - Nơi chia sẻ kiến thức lập trình và phát triển web">
-    <title>StepDevCode.me - Trang chủ</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="StepDevCode.me - Personal Portfolio | Learning Journey, Projects, and Courses">
+    <meta name="keywords" content="portfolio, web developer, programming, DSA, projects">
+    <meta name="author" content="StepDevCode">
+    <title>StepDevCode.me - Personal Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -20,10 +22,11 @@
                 </a>
             </div>
             <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link active">Trang chủ</a></li>
-                <li><a href="index.html#about" class="nav-link">Giới thiệu</a></li>
-                <li><a href="courses.html" class="nav-link">Khóa học</a></li>
-                <li><a href="index.html#contact" class="nav-link">Liên hệ</a></li>
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="courses.html" class="nav-link">Courses</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
             <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
                 <span class="theme-icon">🌙</span>
@@ -39,78 +42,257 @@
     <!-- Hero Section -->
     <section class="hero-section" id="home">
         <div class="container">
-            <header>
-                <h1>Chào mừng đến với StepDevCode.me</h1>
-                <p class="subtitle">Website của bạn đã sẵn sàng!</p>
-            </header>
-        </div>
-    </section>
-    
-    <main>
-        <div class="container">
-            <section class="intro" id="about">
-                <h2>Giới thiệu</h2>
-                <p>Đây là trang web của bạn. Bạn có thể chỉnh sửa nội dung trong file <code>index.html</code> để thêm thông tin của mình.</p>
-            </section>
-            
-            <section class="features">
-                <h2>Tính năng</h2>
-                <div class="feature-grid">
-                    <div class="feature-card">
-                        <h3>🎨 Đẹp mắt</h3>
-                        <p>Giao diện hiện đại và responsive</p>
-                    </div>
-                    <div class="feature-card">
-                        <h3>⚡ Nhanh</h3>
-                        <p>Tải trang nhanh chóng</p>
-                    </div>
-                    <div class="feature-card">
-                        <h3>📱 Responsive</h3>
-                        <p>Hoạt động tốt trên mọi thiết bị</p>
-                    </div>
-                </div>
-            </section>
-            
-            <section class="courses-preview">
-                <h2>Khóa học</h2>
-                <p>Xem các khóa học và quá trình học tập của tôi về DSA, Lập trình và Công nghệ</p>
-                <div style="text-align: center; margin-top: 2rem;">
-                    <a href="courses.html" style="display: inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 25px; font-weight: 600; transition: transform 0.3s ease;">
-                        Xem tất cả khóa học →
-                    </a>
-                </div>
-            </section>
-            
-            <section class="contact" id="contact">
-                <h2>Liên hệ</h2>
-                <p>Thêm thông tin liên hệ của bạn tại đây</p>
-            </section>
-        </div>
-    </main>
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-content">
-                    <div class="footer-section">
-                        <h3>StepDevCode.me</h3>
-                        <p>Nơi chia sẻ kiến thức lập trình và phát triển web</p>
-                    </div>
-                    <div class="footer-section">
-                        <h4>Liên kết nhanh</h4>
-                        <ul>
-                            <li><a href="index.html">Trang chủ</a></li>
-                            <li><a href="courses.html">Khóa học</a></li>
-                            <li><a href="index.html#contact">Liên hệ</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    <p>&copy; 2024 StepDevCode.me - All rights reserved</p>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-greeting">Hello, I'm</span>
+                    <span class="title-name">StepDevCode</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Developer | Learner | Creator
+                </p>
+                <p class="hero-description">
+                    Welcome to my personal portfolio. Here you'll find my learning journey, 
+                    personal projects, and the courses I've completed. Join me as I continue 
+                    to grow and build amazing things.
+                </p>
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn btn-primary">View Projects</a>
+                    <a href="courses.html" class="btn btn-secondary">My Learning Journey</a>
                 </div>
             </div>
-        </footer>
-    <script src="script.js"></script>
+        </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="about-preview" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">A passionate developer on a continuous learning journey</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a self-taught developer passionate about building web applications 
+                        and solving complex problems. My journey in programming started with curiosity 
+                        and has evolved into a dedicated pursuit of knowledge and skill development.
+                    </p>
+                    <p>
+                        Currently, I'm focusing on Data Structures & Algorithms, Full Stack Web Development, 
+                        and modern deployment practices. I believe in learning by doing and documenting 
+                        my progress along the way.
+                    </p>
+                    <div class="skills-preview">
+                        <h3>Skills & Technologies</h3>
+                        <div class="skills-tags">
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">DSA</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn btn-outline">Learn More About Me →</a>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="20">0</div>
+                        <div class="stat-label">Courses</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="365">0</div>
+                        <div class="stat-label">Days Learning</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="featured-projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work and personal projects</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🚀</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Name</h3>
+                        <p class="project-description">
+                            Brief description of the project, technologies used, and key features.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">💻</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Name</h3>
+                        <p class="project-description">
+                            Brief description of the project, technologies used, and key features.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🎨</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Name</h3>
+                        <p class="project-description">
+                            Brief description of the project, technologies used, and key features.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="projects.html" class="btn btn-primary">View All Projects →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Journey Preview -->
+    <section class="learning-preview" id="learning">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Learning Journey</h2>
+                <p class="section-subtitle">Courses, certifications, and continuous learning</p>
+            </div>
+            <div class="courses-preview-grid">
+                <div class="course-preview-card">
+                    <div class="course-icon">📊</div>
+                    <h3>Data Structures & Algorithms</h3>
+                    <p>Mastering fundamental algorithms and data structures</p>
+                    <div class="course-progress-mini">
+                        <div class="progress-bar-mini">
+                            <div class="progress-fill-mini" style="width: 65%"></div>
+                        </div>
+                        <span>65%</span>
+                    </div>
+                </div>
+                <div class="course-preview-card">
+                    <div class="course-icon">🌐</div>
+                    <h3>Full Stack Development</h3>
+                    <p>Building complete web applications</p>
+                    <div class="course-progress-mini">
+                        <div class="progress-bar-mini">
+                            <div class="progress-fill-mini" style="width: 80%"></div>
+                        </div>
+                        <span>80%</span>
+                    </div>
+                </div>
+                <div class="course-preview-card">
+                    <div class="course-icon">🐳</div>
+                    <h3>DevOps & Deployment</h3>
+                    <p>Docker, CI/CD, and cloud deployment</p>
+                    <div class="course-progress-mini">
+                        <div class="progress-bar-mini">
+                            <div class="progress-fill-mini" style="width: 40%"></div>
+                        </div>
+                        <span>40%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="courses.html" class="btn btn-primary">View All Courses →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-preview" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and collaborate</p>
+            </div>
+            <div class="contact-content">
+                <p>
+                    I'm always open to discussing new projects, creative ideas, or opportunities 
+                    to be part of your visions. Feel free to reach out!
+                </p>
+                <a href="contact.html" class="btn btn-primary">Contact Me →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>StepDevCode.me</h3>
+                    <p>Personal portfolio showcasing my learning journey, projects, and growth as a developer.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="GitHub">📦</a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+                        <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                        <a href="#" class="social-link" aria-label="Email">📧</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="courses.html">Learning Journey</a></li>
+                        <li><a href="projects.html">Portfolio</a></li>
+                        <li><a href="contact.html">Get In Touch</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 StepDevCode.me - All rights reserved</p>
+                <p class="footer-note">Built with ❤️ to document my journey</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
-
