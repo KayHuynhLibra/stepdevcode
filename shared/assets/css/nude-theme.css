@@ -1,0 +1,96 @@
+/* ===== Nude Theme Override ===== */
+
+:root {
+    /* Nude Color Palette - Warm & Elegant */
+    --color-primary: #d4a574;        /* Warm beige */
+    --color-secondary: #c9a882;      /* Soft tan */
+    --color-accent: #e8d5b7;         /* Light cream */
+    --color-success: #a8b89a;       /* Sage green */
+    --color-warning: #d4a574;        /* Warm beige */
+    --color-error: #c9a882;          /* Soft tan */
+    
+    /* Text Colors */
+    --text-primary: #5a4a3a;         /* Dark brown */
+    --text-secondary: #8b7355;       /* Medium brown */
+    --text-light: #a89b8a;           /* Light brown */
+    --text-white: #faf8f5;           /* Cream white */
+    
+    /* Background Colors */
+    --bg-primary: #faf8f5;           /* Cream white */
+    --bg-secondary: #f5f1eb;         /* Light beige */
+    --bg-dark: #3d3528;              /* Dark brown */
+    --bg-dark-secondary: #4a4035;    /* Medium dark brown */
+}
+
+/* Dark Mode Nude Theme */
+[data-theme="dark"] {
+    --text-primary: #faf8f5;
+    --text-secondary: #e8d5b7;
+    --text-light: #c9a882;
+    --bg-primary: #3d3528;
+    --bg-secondary: #4a4035;
+    --bg-dark: #2a241f;
+}
+
+/* Override gradient backgrounds */
+.hero-section,
+.community-hero,
+.page-hero {
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
+}
+
+/* Button gradients */
+.btn {
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
+}
+
+.btn:hover {
+    box-shadow: 0 6px 20px rgba(212, 165, 116, 0.4);
+}
+
+/* Navigation active state */
+.nav-link.active {
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
+}
+
+/* Logo gradient */
+.nav-logo .logo-link,
+.logo-text {
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Progress bars */
+.progress-fill {
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
+}
+
+/* Links */
+a {
+    color: #d4a574;
+}
+
+a:hover {
+    color: #c9a882;
+}
+
+/* Cards hover */
+.feature-card:hover,
+.card:hover {
+    box-shadow: 0 8px 30px rgba(212, 165, 116, 0.2);
+}
+
+/* Form focus */
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #d4a574;
+}
+
+/* Selection */
+::selection {
+    background: #e8d5b7;
+    color: #5a4a3a;
+}
+

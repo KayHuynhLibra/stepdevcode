@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create Roadmap - StepDevCode.me">
+    <title>Create Roadmap - StepDevCode.me</title>
+    <link rel="stylesheet" href="../shared/assets/css/main.css">
+    <link rel="stylesheet" href="../shared/assets/css/components.css">
+    <link rel="stylesheet" href="../shared/assets/css/roadmap-admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../personal/index.html" class="logo-link">
+                    <span class="logo-text">StepDevCode</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../personal/index.html" class="nav-link">Personal</a></li>
+                <li><a href="../community/index.html" class="nav-link">Community</a></li>
+                <li><a href="index.html" class="nav-link">Roadmaps</a></li>
+                <li><a href="../admin/dashboard.html" class="nav-link">Admin</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Create Roadmap Form -->
+    <section class="create-section">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">Create New Roadmap</h1>
+                <p class="page-subtitle">Build a structured learning path for the community</p>
+            </div>
+
+            <form class="create-form" id="createRoadmapForm">
+                <div class="form-section">
+                    <h3>Basic Information</h3>
+                    
+                    <div class="form-group">
+                        <label for="roadmapTitle">Roadmap Title *</label>
+                        <input type="text" id="roadmapTitle" name="title" required placeholder="e.g., Frontend Developer">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="roadmapDescription">Description *</label>
+                        <textarea id="roadmapDescription" name="description" rows="4" required placeholder="Describe what this roadmap covers..."></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="roadmapDuration">Duration</label>
+                            <input type="text" id="roadmapDuration" name="duration" placeholder="e.g., 8-12 months">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="roadmapIcon">Icon (Emoji)</label>
+                            <input type="text" id="roadmapIcon" name="icon" placeholder="🚀" maxlength="2">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3>Roadmap Levels</h3>
+                    <div id="levelsContainer">
+                        <!-- Levels will be added here -->
+                    </div>
+                    <button type="button" class="btn btn-secondary" id="addLevelBtn">+ Add Level</button>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Create Roadmap</button>
+                    <a href="index.html" class="btn btn-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>StepDevCode.me</h3>
+                    <p>Personal portfolio and community platform.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 StepDevCode.me - All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../shared/assets/js/core.js"></script>
+    <script src="roadmap-editor.js"></script>
+</body>
+</html>
+

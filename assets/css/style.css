@@ -7,8 +7,8 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #5a4a3a;
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     min-height: 100vh;
 }
 
@@ -52,10 +52,10 @@ section:last-child {
 }
 
 h2 {
-    color: #667eea;
+    color: #d4a574;
     font-size: 2rem;
     margin-bottom: 20px;
-    border-bottom: 3px solid #667eea;
+    border-bottom: 3px solid #d4a574;
     padding-bottom: 10px;
 }
 
@@ -81,7 +81,7 @@ code {
 }
 
 .feature-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     color: white;
     padding: 30px;
     border-radius: 15px;
@@ -171,7 +171,7 @@ footer {
 .logo-text {
     font-size: 1.5rem;
     font-weight: 700;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -193,7 +193,7 @@ footer {
 
 .nav-link:hover,
 .nav-link.active {
-    color: #667eea;
+    color: #d4a574;
 }
 
 .nav-link::after {
@@ -203,7 +203,7 @@ footer {
     left: 0;
     width: 0;
     height: 2px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     transition: width 0.3s ease;
 }
 
@@ -284,9 +284,9 @@ footer {
 
 .filter-btn {
     padding: 0.75rem 1.5rem;
-    border: 2px solid #667eea;
+    border: 2px solid #d4a574;
     background: white;
-    color: #667eea;
+    color: #d4a574;
     border-radius: 25px;
     cursor: pointer;
     font-weight: 600;
@@ -294,13 +294,13 @@ footer {
 }
 
 .filter-btn:hover {
-    background: #667eea;
+    background: #d4a574;
     color: white;
     transform: translateY(-2px);
 }
 
 .filter-btn.active {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     color: white;
     border-color: transparent;
 }
@@ -327,7 +327,7 @@ footer {
 }
 
 .course-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     padding: 2rem;
     position: relative;
     color: white;
@@ -381,7 +381,7 @@ footer {
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     font-size: 0.85rem;
-    color: #667eea;
+    color: #d4a574;
     font-weight: 500;
 }
 
@@ -400,7 +400,7 @@ footer {
 
 .progress-fill {
     height: 100%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     border-radius: 10px;
     transition: width 1s ease;
 }
@@ -411,14 +411,14 @@ footer {
 }
 
 .course-link {
-    color: #667eea;
+    color: #d4a574;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .course-link:hover {
-    color: #764ba2;
+    color: #c9a882;
 }
 
 .learning-path {
@@ -431,7 +431,7 @@ footer {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -451,7 +451,7 @@ footer {
     top: 0;
     bottom: 0;
     width: 2px;
-    background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(180deg, #d4a574 0%, #c9a882 100%);
 }
 
 .timeline-item {
@@ -466,7 +466,7 @@ footer {
     top: 0.5rem;
     width: 20px;
     height: 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     border-radius: 50%;
     border: 4px solid white;
     box-shadow: 0 0 0 2px #667eea;
@@ -485,7 +485,7 @@ footer {
 
 .timeline-date {
     font-size: 0.9rem;
-    color: #667eea;
+    color: #d4a574;
     font-weight: 600;
 }
 
@@ -672,7 +672,7 @@ footer {
 
 .btn-outline:hover {
     background: white;
-    color: #667eea;
+    color: #d4a574;
 }
 
 /* About Preview Section */
@@ -715,7 +715,7 @@ footer {
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
-    color: #667eea;
+    color: #d4a574;
     font-weight: 500;
 }
 
@@ -726,7 +726,7 @@ footer {
 }
 
 .stat-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
@@ -773,7 +773,7 @@ footer {
 .project-image {
     width: 100%;
     height: 200px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -811,7 +811,7 @@ footer {
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     font-size: 0.85rem;
-    color: #667eea;
+    color: #d4a574;
     font-weight: 500;
 }
 
@@ -822,14 +822,14 @@ footer {
 }
 
 .project-link {
-    color: #667eea;
+    color: #d4a574;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .project-link:hover {
-    color: #764ba2;
+    color: #c9a882;
 }
 
 .section-footer {
@@ -895,7 +895,7 @@ footer {
 
 .progress-fill-mini {
     height: 100%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     border-radius: 10px;
     transition: width 1s ease;
 }
@@ -954,7 +954,7 @@ footer {
 
 .project-image-full {
     position: relative;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -989,7 +989,7 @@ footer {
 .project-code-btn {
     padding: 0.75rem 1.5rem;
     background: white;
-    color: #667eea;
+    color: #d4a574;
     text-decoration: none;
     border-radius: 25px;
     font-weight: 600;
@@ -1022,7 +1022,7 @@ footer {
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     font-size: 0.9rem;
-    color: #667eea;
+    color: #d4a574;
     font-weight: 600;
 }
 
@@ -1065,7 +1065,7 @@ footer {
     content: '✓';
     position: absolute;
     left: 0;
-    color: #667eea;
+    color: #d4a574;
     font-weight: bold;
 }
 
@@ -1081,7 +1081,7 @@ footer {
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
     background: #f0f0f0;
-    color: #667eea;
+    color: #d4a574;
     text-decoration: none;
     border-radius: 25px;
     font-weight: 600;
@@ -1089,7 +1089,7 @@ footer {
 }
 
 .project-link-full:hover {
-    background: #667eea;
+    background: #d4a574;
     color: white;
     transform: translateY(-2px);
 }
@@ -1113,7 +1113,7 @@ footer {
 .about-intro h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1165,7 +1165,7 @@ footer {
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
-    color: #667eea;
+    color: #d4a574;
     font-weight: 500;
     border: 1px solid #e0e0e0;
 }
@@ -1192,7 +1192,7 @@ footer {
     top: 0;
     bottom: 0;
     width: 2px;
-    background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(180deg, #d4a574 0%, #c9a882 100%);
 }
 
 .journey-item {
@@ -1207,7 +1207,7 @@ footer {
     top: 0;
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1313,7 +1313,7 @@ footer {
     font-size: 2rem;
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1373,7 +1373,7 @@ footer {
 .btn {
     display: inline-block;
     padding: 0.75rem 2rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     color: white;
     text-decoration: none;
     border-radius: 25px;
@@ -1390,7 +1390,7 @@ footer {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
 }
 
 .btn-secondary {
@@ -1400,7 +1400,7 @@ footer {
 
 .btn-secondary:hover {
     background: white;
-    color: #667eea;
+    color: #d4a574;
 }
 
 .section-header {
@@ -1411,7 +1411,7 @@ footer {
 .section-title {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1533,7 +1533,7 @@ footer {
     align-items: center;
     gap: 0.5rem;
     margin-bottom: 1.5rem;
-    color: #667eea;
+    color: #d4a574;
     font-weight: 600;
 }
 
@@ -1566,7 +1566,7 @@ footer {
 }
 
 .roadmap-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     padding: 2rem;
     position: relative;
     color: white;
@@ -1659,17 +1659,17 @@ footer {
 .schedule-tab {
     padding: 0.75rem 1.5rem;
     background: white;
-    color: #667eea;
+    color: #d4a574;
     text-decoration: none;
     border-radius: 25px;
     font-weight: 600;
     transition: all 0.3s ease;
-    border: 2px solid #667eea;
+    border: 2px solid #d4a574;
 }
 
 .schedule-tab:hover,
 .schedule-tab.active {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     color: white;
     border-color: transparent;
 }
@@ -1690,7 +1690,7 @@ footer {
 
 .date-display {
     font-size: 1.2rem;
-    color: #667eea;
+    color: #d4a574;
     font-weight: 600;
 }
 
@@ -1702,7 +1702,7 @@ footer {
 }
 
 .stat-box {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     padding: 2rem;
     border-radius: 15px;
     display: flex;
@@ -1806,7 +1806,7 @@ footer {
 
 .task-course {
     font-size: 0.9rem;
-    color: #667eea;
+    color: #d4a574;
 }
 
 .task-time {
@@ -1855,11 +1855,11 @@ footer {
 
 .log-course {
     font-weight: 600;
-    color: #667eea;
+    color: #d4a574;
 }
 
 .log-time {
-    background: #667eea;
+    background: #d4a574;
     color: white;
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
@@ -1914,7 +1914,7 @@ footer {
 }
 
 .overview-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
     padding: 2.5rem;
     border-radius: 15px;
     color: white;
@@ -1980,7 +1980,7 @@ footer {
 }
 
 .level-progress {
-    background: #667eea;
+    background: #d4a574;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -2021,7 +2021,7 @@ footer {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    color: #667eea;
+    color: #d4a574;
     flex-shrink: 0;
 }
 
@@ -2047,14 +2047,14 @@ footer {
 }
 
 .topic-link {
-    color: #667eea;
+    color: #d4a574;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .topic-link:hover {
-    color: #764ba2;
+    color: #c9a882;
 }
 
 /* ===== Resources Styles ===== */
@@ -2104,7 +2104,7 @@ footer {
 }
 
 .category-count {
-    color: #667eea;
+    color: #d4a574;
     font-weight: 600;
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
@@ -2161,7 +2161,7 @@ footer {
 
 .article-category {
     background: #f0f0f0;
-    color: #667eea;
+    color: #d4a574;
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     font-weight: 600;
@@ -2181,13 +2181,223 @@ footer {
 }
 
 .article-link {
-    color: #667eea;
+    color: #d4a574;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .article-link:hover {
-    color: #764ba2;
+    color: #c9a882;
+}
+
+/* ===== Development Process Page Styles ===== */
+.development-page {
+    background: #0a0a0a;
+    min-height: 100vh;
+}
+
+.dev-process-section {
+    padding: 100px 20px 20px;
+    min-height: 100vh;
+    background: 
+        radial-gradient(circle at 20% 50%, rgba(102, 126, 234, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(118, 75, 162, 0.1) 0%, transparent 50%),
+        #0a0a0a;
+    position: relative;
+    overflow: hidden;
+}
+
+.dev-process-container {
+    max-width: 100%;
+    height: calc(100vh - 120px);
+    position: relative;
+}
+
+.diagram-controls {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.control-btn {
+    width: 45px;
+    height: 45px;
+    background: rgba(102, 126, 234, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-btn:hover {
+    background: rgba(102, 126, 234, 1);
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(102, 126, 234, 0.5);
+}
+
+.control-btn.active {
+    background: rgba(118, 75, 162, 0.9);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.diagram-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 2px solid rgba(102, 126, 234, 0.5);
+    border-radius: 15px;
+    background: rgba(10, 10, 10, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 
+        0 0 50px rgba(102, 126, 234, 0.3),
+        inset 0 0 50px rgba(102, 126, 234, 0.1);
+    overflow: hidden;
+}
+
+#skillTreeCanvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: grab;
+}
+
+#skillTreeCanvas:active {
+    cursor: grabbing;
+}
+
+.detail-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    background: rgba(102, 126, 234, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 1.5rem;
+    color: white;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(102, 126, 234, 0.5);
+    z-index: 200;
+    display: none;
+}
+
+.detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 0.5rem;
+}
+
+.detail-header h3 {
+    font-size: 1.3rem;
+    margin: 0;
+    color: white;
+}
+
+.close-btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    line-height: 1;
+    transition: background 0.3s ease;
+}
+
+.close-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.detail-content p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.detail-attributes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.detail-attr {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.attr-label {
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.attr-value {
+    font-weight: 700;
+    color: #f0f0f0;
+}
+
+.minimap {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(102, 126, 234, 0.5);
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+    z-index: 100;
+}
+
+#minimapCanvas {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .diagram-controls {
+        left: 10px;
+        top: 10px;
+    }
+
+    .control-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .detail-box {
+        width: calc(100% - 40px);
+        right: 20px;
+        top: auto;
+        bottom: 80px;
+    }
+
+    .minimap {
+        width: 150px;
+        height: 100px;
+        bottom: 10px;
+        right: 10px;
+    }
 }
 
