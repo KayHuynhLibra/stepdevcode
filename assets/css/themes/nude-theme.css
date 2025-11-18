@@ -20,10 +20,10 @@
     --text-light: #999;              /* Light gray (màu cũ) */
     --text-white: #ffffff;           /* White (màu cũ) */
     
-    /* Background Colors - Nude (từ button View Projects) */
-    --bg-primary: #d4a574;            /* Main nude background - từ button */
-    --bg-secondary: #c9a882;         /* Light nude */
-    --bg-tertiary: #b8956a;          /* Medium nude */
+    /* Background Colors - Nude (sáng hơn, vẫn đậm, tone mới) */
+    --bg-primary: #E8D5B7;            /* Main nude background - sáng hơn, vẫn đậm */
+    --bg-secondary: #F0E4C4;         /* Light nude - sáng hơn */
+    --bg-tertiary: #DDC9A3;          /* Medium nude - đậm hơn một chút */
 }
 
 /* Dark Mode - Giữ màu cũ */
@@ -124,7 +124,7 @@ body {
     background-color: transparent;
 }
 
-/* Section Backgrounds - Light nude variations */
+/* Section Backgrounds - Light nude variations (sáng hơn, tone mới) */
 section {
     background-color: var(--bg-primary) !important;
 }
@@ -134,7 +134,7 @@ section:nth-child(even) {
 }
 
 section:nth-child(odd) {
-    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%) !important;
+    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%) !important;
 }
 
 /* Main content area */

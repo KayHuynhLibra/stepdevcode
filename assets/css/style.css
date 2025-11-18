@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-/* Main Background - Nude (từ button View Projects) */
+/* Main Background - Nude (sáng hơn, vẫn đậm, tone mới) */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     line-height: 1.6;
     color: #333;  /* Giữ màu chữ cũ */
-    background-color: #d4a574 !important;  /* Màu từ button View Projects */
-    background: #d4a574 !important;
+    background-color: #E8D5B7 !important;  /* Sáng hơn, vẫn đậm, tone mới */
+    background: #E8D5B7 !important;
     min-height: 100vh;
 }
 
