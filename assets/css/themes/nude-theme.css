@@ -21,8 +21,9 @@
     --text-white: #ffffff;           /* White (màu cũ) */
     
     /* Background Colors - Nude */
-    --bg-primary: #faf8f5;           /* Cream white */
-    --bg-secondary: #f5f1eb;          /* Light beige */
+    --bg-primary: #F5ECCE;           /* Main nude background */
+    --bg-secondary: #F0E4C4;         /* Light nude */
+    --bg-tertiary: #FAF0D8;          /* Very light nude */
 }
 
 /* Dark Mode - Giữ màu cũ */
@@ -110,5 +111,35 @@ a:hover {
 ::selection {
     background: #9b59b6;
     color: #ffffff;
+}
+
+/* Main Background - Nude */
+body {
+    background-color: var(--bg-primary) !important;
+    background: var(--bg-primary) !important;
+}
+
+/* Container Background */
+.container {
+    background-color: transparent;
+}
+
+/* Section Backgrounds - Light nude variations */
+section {
+    background-color: var(--bg-primary) !important;
+}
+
+section:nth-child(even) {
+    background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%) !important;
+}
+
+section:nth-child(odd) {
+    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%) !important;
+}
+
+/* Main content area */
+main,
+.content-wrapper {
+    background-color: var(--bg-primary);
 }
 
