@@ -1,0 +1,114 @@
+/* ===== Nude + Purple Theme Override ===== */
+
+:root {
+    /* Nude Color Palette - Multiple Shades */
+    --color-primary: #F5ECCE;        /* Main nude - Light cream */
+    --color-secondary: #9b59b6;      /* Purple */
+    --color-accent: #e8d5b7;         /* Light cream */
+    
+    /* Additional Nude Colors - Xen kẽ (based on #F5ECCE) */
+    --nude-1: #F5ECCE;               /* Main nude - Light cream */
+    --nude-2: #E8D5B7;               /* Soft cream */
+    --nude-3: #DDC9A3;               /* Medium cream */
+    --nude-4: #F0E4C4;               /* Pale cream */
+    --nude-5: #FAF0D8;               /* Very light cream */
+    --nude-6: #D4C4A8;               /* Muted cream */
+    
+    /* Text Colors - Giữ màu cũ */
+    --text-primary: #333;            /* Dark gray (màu cũ) */
+    --text-secondary: #666;          /* Medium gray (màu cũ) */
+    --text-light: #999;              /* Light gray (màu cũ) */
+    --text-white: #ffffff;           /* White (màu cũ) */
+    
+    /* Background Colors - Nude */
+    --bg-primary: #faf8f5;           /* Cream white */
+    --bg-secondary: #f5f1eb;          /* Light beige */
+}
+
+/* Dark Mode - Giữ màu cũ */
+[data-theme="dark"] {
+    --text-primary: #ffffff;
+    --text-secondary: #b0b0b0;
+    --text-light: #888;
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2d2d2d;
+}
+
+/* Override gradient backgrounds - Nude + Purple */
+.hero-section,
+.community-hero,
+.page-hero {
+    background: linear-gradient(135deg, #F5ECCE 0%, #9b59b6 100%);
+}
+
+/* Button gradients - Xen kẽ các màu nude */
+.btn {
+    background: linear-gradient(135deg, var(--nude-1) 0%, var(--nude-2) 100%);
+}
+
+.btn:nth-child(2n) {
+    background: linear-gradient(135deg, var(--nude-3) 0%, var(--nude-4) 100%);
+}
+
+.btn:nth-child(3n) {
+    background: linear-gradient(135deg, var(--nude-5) 0%, var(--nude-6) 100%);
+}
+
+.btn:hover {
+    box-shadow: 0 6px 20px rgba(155, 89, 182, 0.4);
+}
+
+/* Navigation active state */
+.nav-link.active {
+    background: linear-gradient(135deg, #F5ECCE 0%, #9b59b6 100%);
+}
+
+/* Logo gradient */
+.nav-logo .logo-link,
+.logo-text {
+    background: linear-gradient(135deg, #F5ECCE 0%, #9b59b6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Progress bars - Xen kẽ */
+.progress-fill {
+    background: linear-gradient(135deg, var(--nude-1) 0%, var(--nude-2) 100%);
+}
+
+.progress-fill:nth-child(2n) {
+    background: linear-gradient(135deg, var(--nude-3) 0%, var(--nude-4) 100%);
+}
+
+.progress-fill:nth-child(3n) {
+    background: linear-gradient(135deg, var(--nude-5) 0%, var(--nude-6) 100%);
+}
+
+/* Links - Giữ màu cũ hoặc dùng purple */
+a {
+    color: var(--color-secondary);  /* Purple */
+}
+
+a:hover {
+    color: var(--color-primary);     /* Nude */
+}
+
+/* Cards hover */
+.feature-card:hover,
+.card:hover {
+    box-shadow: 0 8px 30px rgba(155, 89, 182, 0.2);
+}
+
+/* Form focus */
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #9b59b6;
+}
+
+/* Selection */
+::selection {
+    background: #9b59b6;
+    color: #ffffff;
+}
+

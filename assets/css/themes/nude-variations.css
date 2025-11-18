@@ -1,0 +1,238 @@
+/* ===== Nude Color Variations - Xen kẽ ===== */
+
+/* Feature Cards - Xen kẽ màu nude */
+.feature-card:nth-child(1),
+.feature-card:nth-child(4),
+.feature-card:nth-child(7) {
+    background: linear-gradient(135deg, #F5ECCE 0%, #E8D5B7 100%);
+    color: #1a1a1a;  /* Màu tối */
+}
+
+.feature-card:nth-child(2),
+.feature-card:nth-child(5),
+.feature-card:nth-child(8) {
+    background: linear-gradient(135deg, #DDC9A3 0%, #F0E4C4 100%);
+    color: #1a1a1a;  /* Màu tối */
+}
+
+.feature-card:nth-child(3),
+.feature-card:nth-child(6),
+.feature-card:nth-child(9) {
+    background: linear-gradient(135deg, #FAF0D8 0%, #D4C4A8 100%);
+    color: #1a1a1a;  /* Màu tối */
+}
+
+/* Feature Cards Text - In đậm */
+.feature-card h3,
+.feature-card .feature-title {
+    font-weight: 800;
+    color: #1a1a1a;
+}
+
+.feature-card p,
+.feature-card .feature-description {
+    font-weight: 500;
+    color: #2c2c2c;
+}
+
+/* Course Cards - Xen kẽ */
+.course-card:nth-child(1),
+.course-card:nth-child(4),
+.course-card:nth-child(7) {
+    border-top: 4px solid #F5ECCE;
+}
+
+.course-card:nth-child(2),
+.course-card:nth-child(5),
+.course-card:nth-child(8) {
+    border-top: 4px solid #DDC9A3;
+}
+
+.course-card:nth-child(3),
+.course-card:nth-child(6),
+.course-card:nth-child(9) {
+    border-top: 4px solid #D4C4A8;
+}
+
+.course-card:nth-child(4),
+.course-card:nth-child(7),
+.course-card:nth-child(10) {
+    border-top: 4px solid #F0E4C4;
+}
+
+/* Project Cards - Xen kẽ */
+.project-card:nth-child(1),
+.project-card:nth-child(4),
+.project-card:nth-child(7) {
+    background: linear-gradient(135deg, rgba(245, 236, 206, 0.1) 0%, rgba(232, 213, 183, 0.1) 100%);
+    border-left: 4px solid #F5ECCE;
+}
+
+.project-card:nth-child(2),
+.project-card:nth-child(5),
+.project-card:nth-child(8) {
+    background: linear-gradient(135deg, rgba(221, 201, 163, 0.1) 0%, rgba(240, 228, 196, 0.1) 100%);
+    border-left: 4px solid #DDC9A3;
+}
+
+.project-card:nth-child(3),
+.project-card:nth-child(6),
+.project-card:nth-child(9) {
+    background: linear-gradient(135deg, rgba(250, 240, 216, 0.1) 0%, rgba(212, 196, 168, 0.1) 100%);
+    border-left: 4px solid #D4C4A8;
+}
+
+/* Timeline Items - Xen kẽ */
+.timeline-item:nth-child(1),
+.timeline-item:nth-child(4),
+.timeline-item:nth-child(7) .timeline-marker {
+    background: linear-gradient(135deg, #F5ECCE 0%, #E8D5B7 100%);
+}
+
+.timeline-item:nth-child(2),
+.timeline-item:nth-child(5),
+.timeline-item:nth-child(8) .timeline-marker {
+    background: linear-gradient(135deg, #DDC9A3 0%, #F0E4C4 100%);
+}
+
+.timeline-item:nth-child(3),
+.timeline-item:nth-child(6),
+.timeline-item:nth-child(9) .timeline-marker {
+    background: linear-gradient(135deg, #FAF0D8 0%, #D4C4A8 100%);
+}
+
+/* Filter Buttons - Xen kẽ */
+.filter-btn:nth-child(1),
+.filter-btn:nth-child(4),
+.filter-btn:nth-child(7) {
+    border-color: #F5ECCE;
+    color: #F5ECCE;
+}
+
+.filter-btn:nth-child(1):hover,
+.filter-btn:nth-child(4):hover,
+.filter-btn:nth-child(7):hover {
+    background: #F5ECCE;
+}
+
+.filter-btn:nth-child(2),
+.filter-btn:nth-child(5),
+.filter-btn:nth-child(8) {
+    border-color: #DDC9A3;
+    color: #DDC9A3;
+}
+
+.filter-btn:nth-child(2):hover,
+.filter-btn:nth-child(5):hover,
+.filter-btn:nth-child(8):hover {
+    background: #DDC9A3;
+}
+
+.filter-btn:nth-child(3),
+.filter-btn:nth-child(6),
+.filter-btn:nth-child(9) {
+    border-color: #D4C4A8;
+    color: #D4C4A8;
+}
+
+.filter-btn:nth-child(3):hover,
+.filter-btn:nth-child(6):hover,
+.filter-btn:nth-child(9):hover {
+    background: #D4C4A8;
+}
+
+/* Section Backgrounds - Xen kẽ nhẹ */
+section:nth-child(even) {
+    background: linear-gradient(135deg, rgba(245, 236, 206, 0.03) 0%, rgba(232, 213, 183, 0.03) 100%);
+}
+
+section:nth-child(odd) {
+    background: linear-gradient(135deg, rgba(221, 201, 163, 0.03) 0%, rgba(240, 228, 196, 0.03) 100%);
+}
+
+/* Tags/Badges - Xen kẽ */
+.tag:nth-child(1),
+.tag:nth-child(4),
+.tag:nth-child(7) {
+    background: #F5ECCE;
+    color: #333;
+}
+
+.tag:nth-child(2),
+.tag:nth-child(5),
+.tag:nth-child(8) {
+    background: #DDC9A3;
+    color: #333;
+}
+
+.tag:nth-child(3),
+.tag:nth-child(6),
+.tag:nth-child(9) {
+    background: #D4C4A8;
+    color: #333;
+}
+
+.tag:nth-child(4),
+.tag:nth-child(7),
+.tag:nth-child(10) {
+    background: #F0E4C4;
+    color: #333;
+}
+
+/* Stats Cards - Xen kẽ */
+.stat-item:nth-child(1),
+.stat-item:nth-child(4),
+.stat-item:nth-child(7) {
+    border-left: 4px solid #F5ECCE;
+}
+
+.stat-item:nth-child(2),
+.stat-item:nth-child(5),
+.stat-item:nth-child(8) {
+    border-left: 4px solid #DDC9A3;
+}
+
+.stat-item:nth-child(3),
+.stat-item:nth-child(6),
+.stat-item:nth-child(9) {
+    border-left: 4px solid #D4C4A8;
+}
+
+/* Blog/Article Cards - Xen kẽ */
+.blog-card:nth-child(1),
+.blog-card:nth-child(4),
+.blog-card:nth-child(7) {
+    border-top: 3px solid #F5ECCE;
+}
+
+.blog-card:nth-child(2),
+.blog-card:nth-child(5),
+.blog-card:nth-child(8) {
+    border-top: 3px solid #DDC9A3;
+}
+
+.blog-card:nth-child(3),
+.blog-card:nth-child(6),
+.blog-card:nth-child(9) {
+    border-top: 3px solid #D4C4A8;
+}
+
+/* Hover Effects với màu nude xen kẽ */
+.feature-card:nth-child(1):hover,
+.feature-card:nth-child(4):hover,
+.feature-card:nth-child(7):hover {
+    box-shadow: 0 10px 30px rgba(245, 236, 206, 0.3);
+}
+
+.feature-card:nth-child(2):hover,
+.feature-card:nth-child(5):hover,
+.feature-card:nth-child(8):hover {
+    box-shadow: 0 10px 30px rgba(221, 201, 163, 0.3);
+}
+
+.feature-card:nth-child(3):hover,
+.feature-card:nth-child(6):hover,
+.feature-card:nth-child(9):hover {
+    box-shadow: 0 10px 30px rgba(212, 196, 168, 0.3);
+}
+
