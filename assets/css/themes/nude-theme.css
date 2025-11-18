@@ -20,10 +20,10 @@
     --text-light: #999;              /* Light gray (màu cũ) */
     --text-white: #ffffff;           /* White (màu cũ) */
     
-    /* Background Colors - Nude */
-    --bg-primary: #F5ECCE;           /* Main nude background */
-    --bg-secondary: #F0E4C4;         /* Light nude */
-    --bg-tertiary: #FAF0D8;          /* Very light nude */
+    /* Background Colors - Nude (từ button View Projects) */
+    --bg-primary: #d4a574;            /* Main nude background - từ button */
+    --bg-secondary: #c9a882;         /* Light nude */
+    --bg-tertiary: #b8956a;          /* Medium nude */
 }
 
 /* Dark Mode - Giữ màu cũ */
