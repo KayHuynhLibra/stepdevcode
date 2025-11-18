@@ -853,6 +853,12 @@ footer {
 }
 
 /* Learning Preview Section */
+/* Learning Journey Title - Tím đậm */
+.learning-journey-title {
+    color: #6a1b9a !important;  /* Tím đậm */
+    font-weight: 900 !important;  /* Cực đậm */
+}
+
 .learning-preview {
     padding: 80px 20px;
     background: white;
