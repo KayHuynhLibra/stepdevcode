@@ -5,18 +5,34 @@
 .feature-card:nth-child(4),
 .feature-card:nth-child(7) {
     background: linear-gradient(135deg, #d4a574 0%, #c9a882 100%);
+    color: #1a1a1a;  /* Màu tối */
 }
 
 .feature-card:nth-child(2),
 .feature-card:nth-child(5),
 .feature-card:nth-child(8) {
     background: linear-gradient(135deg, #b8956a 0%, #d4c4a8 100%);
+    color: #1a1a1a;  /* Màu tối */
 }
 
 .feature-card:nth-child(3),
 .feature-card:nth-child(6),
 .feature-card:nth-child(9) {
     background: linear-gradient(135deg, #e6d3b3 0%, #c4a77d 100%);
+    color: #1a1a1a;  /* Màu tối */
+}
+
+/* Feature Cards Text - In đậm */
+.feature-card h3,
+.feature-card .feature-title {
+    font-weight: 800;
+    color: #1a1a1a;
+}
+
+.feature-card p,
+.feature-card .feature-description {
+    font-weight: 500;
+    color: #2c2c2c;
 }
 
 /* Course Cards - Xen kẽ */

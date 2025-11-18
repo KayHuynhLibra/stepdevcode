@@ -95,26 +95,33 @@
     padding: var(--spacing-xl) var(--spacing-md);
     text-align: center;
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-    color: var(--text-white);
+    color: #1a1a1a;  /* Màu tối thay vì trắng */
     margin-bottom: var(--spacing-lg);
 }
 
 .hero-title {
     font-size: 3.5rem;
     margin-bottom: var(--spacing-sm);
+    font-weight: 900;  /* Cực đậm */
+    color: #1a1a1a;  /* Màu tối */
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.3);
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
     margin-bottom: var(--spacing-md);
-    opacity: 0.9;
+    font-weight: 700;  /* In đậm */
+    color: #2c2c2c;  /* Màu tối */
+    opacity: 1;  /* Bỏ opacity */
 }
 
 .hero-description {
     font-size: 1.1rem;
     max-width: 700px;
     margin: 0 auto var(--spacing-lg);
-    opacity: 0.9;
+    font-weight: 500;  /* In đậm hơn */
+    color: #333;  /* Màu tối */
+    opacity: 1;  /* Bỏ opacity */
 }
 
 .hero-stats {
@@ -130,13 +137,16 @@
 
 .stat-number {
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 900;  /* Cực đậm */
     margin-bottom: 0.5rem;
+    color: #1a1a1a;  /* Màu tối */
 }
 
 .stat-label {
     font-size: 1rem;
-    opacity: 0.9;
+    font-weight: 600;  /* In đậm */
+    color: #2c2c2c;  /* Màu tối */
+    opacity: 1;  /* Bỏ opacity */
 }
 
 /* Cards */
@@ -170,12 +180,14 @@
     font-size: 1.5rem;
     margin-bottom: var(--spacing-sm);
     color: var(--text-primary);
+    font-weight: 800;  /* Tăng từ default lên 800 */
 }
 
 .feature-description {
     color: var(--text-secondary);
     margin-bottom: var(--spacing-md);
     line-height: 1.6;
+    font-weight: 500;  /* In đậm hơn */
 }
 
 .feature-link {

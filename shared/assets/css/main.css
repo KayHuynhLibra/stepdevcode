@@ -83,16 +83,25 @@ body {
     padding: 0 var(--spacing-md);
 }
 
-/* Typography */
+/* Typography - In đậm hơn */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
+    font-weight: 800;  /* Tăng từ 700 lên 800 */
     line-height: 1.2;
     color: var(--text-primary);
+}
+
+h1 {
+    font-weight: 900;  /* H1 cực đậm */
 }
 
 p {
     color: var(--text-secondary);
     line-height: 1.8;
+    font-weight: 500;  /* Thêm font-weight cho paragraph */
+}
+
+strong, b {
+    font-weight: 700;  /* In đậm hơn */
 }
 
 /* Links */
@@ -111,10 +120,10 @@ a:hover {
     display: inline-block;
     padding: 0.75rem 2rem;
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-    color: var(--text-white);
+    color: #1a1a1a;  /* Màu tối thay vì trắng */
     text-decoration: none;
     border-radius: var(--radius-lg);
-    font-weight: 600;
+    font-weight: 700;  /* Tăng từ 600 lên 700 */
     border: none;
     cursor: pointer;
     transition: transform var(--transition-normal), box-shadow var(--transition-normal);

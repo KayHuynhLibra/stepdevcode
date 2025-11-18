@@ -20,19 +20,23 @@ body {
 
 header {
     text-align: center;
-    color: white;
+    color: #2c2c2c;  /* Màu tối thay vì trắng */
     padding: 60px 20px;
 }
 
 header h1 {
     font-size: 3rem;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    font-weight: 900;  /* Cực đậm */
+    color: #1a1a1a;  /* Màu tối */
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.3);  /* Shadow sáng hơn */
 }
 
 .subtitle {
     font-size: 1.3rem;
-    opacity: 0.9;
+    font-weight: 600;  /* In đậm hơn */
+    color: #2c2c2c;  /* Màu tối */
+    opacity: 1;  /* Bỏ opacity để rõ hơn */
 }
 
 main {
@@ -61,8 +65,9 @@ h2 {
 
 .intro p {
     font-size: 1.1rem;
-    color: #555;
+    color: #2c2c2c;  /* Màu tối hơn */
     line-height: 1.8;
+    font-weight: 500;  /* In đậm hơn */
 }
 
 code {
@@ -82,7 +87,7 @@ code {
 
 .feature-card {
     background: linear-gradient(135deg, #d4a574 0%, #9b59b6 100%);
-    color: white;
+    color: #2c2c2c;  /* Màu tối thay vì trắng */
     padding: 30px;
     border-radius: 15px;
     text-align: center;
@@ -97,10 +102,14 @@ code {
 .feature-card h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    font-weight: 800;  /* In đậm hơn */
+    color: #1a1a1a;  /* Màu tối */
 }
 
 .feature-card p {
-    opacity: 0.9;
+    font-weight: 500;  /* In đậm */
+    color: #2c2c2c;  /* Màu tối */
+    opacity: 1;  /* Bỏ opacity */
 }
 
 .contact {
@@ -114,9 +123,10 @@ code {
 
 footer {
     text-align: center;
-    color: white;
+    color: #1a1a1a;  /* Màu tối */
     padding: 30px 20px;
-    opacity: 0.9;
+    font-weight: 500;  /* In đậm */
+    opacity: 1;  /* Bỏ opacity */
 }
 
 @media (max-width: 768px) {
@@ -244,7 +254,7 @@ footer {
 .hero-section {
     padding: 120px 20px 60px;
     text-align: center;
-    color: white;
+    color: #1a1a1a;  /* Màu tối */
     min-height: 60vh;
     display: flex;
     align-items: center;
@@ -254,18 +264,22 @@ footer {
 .courses-hero {
     padding: 120px 20px 60px;
     text-align: center;
-    color: white;
+    color: #1a1a1a;  /* Màu tối */
 }
 
 .courses-title {
     font-size: 3rem;
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    font-weight: 900;  /* Cực đậm */
+    color: #1a1a1a;  /* Màu tối */
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.3);
 }
 
 .courses-subtitle {
     font-size: 1.3rem;
-    opacity: 0.9;
+    font-weight: 600;  /* In đậm */
+    color: #2c2c2c;  /* Màu tối */
+    opacity: 1;  /* Bỏ opacity */
 }
 
 .courses-section {
@@ -295,7 +309,8 @@ footer {
 
 .filter-btn:hover {
     background: #9b59b6;  /* Purple */
-    color: white;
+    color: #1a1a1a;  /* Màu tối */
+    font-weight: 700;
     transform: translateY(-2px);
 }
 
