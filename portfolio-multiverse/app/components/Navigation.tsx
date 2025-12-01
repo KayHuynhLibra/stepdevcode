@@ -1,11 +1,6 @@
-'use client';
-
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 
 export default function Navigation() {
-  const pathname = usePathname();
-
   const navItems = [
     { href: '/', label: 'Home' },
     { href: '/minimal', label: 'Minimal' },
@@ -25,11 +20,7 @@ export default function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                  pathname === item.href
-                    ? 'bg-gray-900 text-white'
-                    : 'text-gray-700 hover:bg-gray-100'
-                }`}
+                className="px-3 py-2 rounded-md text-sm font-medium transition-colors text-gray-700 hover:bg-gray-100"
               >
                 {item.label}
               </Link>
